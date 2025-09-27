@@ -4,4 +4,3 @@ version=v5.1
 versionCode=19
 author=misofunyin
 description=Replace stock echo settings with Aosp lollipop settings
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
