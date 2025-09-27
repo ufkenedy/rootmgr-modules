@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v3.7
+id=Aecho-mod
+name=Aosp settings
+version=v5.1
 versionCode=19
-author=Zackptg5
-description=Magisk Module Template Extended
+author=misofunyin
+description=Replace stock echo settings with Aosp lollipop settings
 updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
