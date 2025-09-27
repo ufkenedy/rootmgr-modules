@@ -1,6 +1,6 @@
 ##########################################################################################
 #
-# MMT Extended Config Script
+# Aecho Config Script
 #
 ##########################################################################################
 
@@ -12,8 +12,8 @@
 # Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
 # Uncomment PARTOVER if you have a workaround in place for extra partitions in regular magisk install (can mount them yourself - you will need to do this each boot as well). If unsure, keep commented
 # Uncomment PARTITIONS and list additional partitions you will be modifying (other than system and vendor), for example: PARTITIONS="/odm /product /system_ext"
-#MINAPI=21
-#MAXAPI=25
+MINAPI=21
+MAXAPI=27
 #DYNLIB=true
 #PARTOVER=true
 #PARTITIONS=""
@@ -35,7 +35,7 @@ REPLACE_EXAMPLE="
 "
 
 # Construct your own list here
-REPLACE="
+REPLACE="/system/priv-app/KnightSettings
 "
 
 ##########################################################################################
@@ -62,7 +62,7 @@ set_permissions() {
 }
 
 ##########################################################################################
-# MMT Extended Logic - Don't modify anything after this
+# Aecho Extended Logic - Don't modify anything after this
 ##########################################################################################
 
 SKIPUNZIP=1
